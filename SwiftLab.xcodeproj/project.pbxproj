@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		23B5C9B02996FFFF0096C497 /* SwiftLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5C9AF2996FFFF0096C497 /* SwiftLabApp.swift */; };
-		23B5C9B22996FFFF0096C497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5C9B12996FFFF0096C497 /* ContentView.swift */; };
 		23B5C9B4299700000096C497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5C9B3299700000096C497 /* Assets.xcassets */; };
 		23B5C9B7299700000096C497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5C9B6299700000096C497 /* Preview Assets.xcassets */; };
+		23B5C9BF2997028B0096C497 /* OnAppearOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5C9BE2997028B0096C497 /* OnAppearOnReceive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23B5C9AC2996FFFF0096C497 /* SwiftLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B5C9AF2996FFFF0096C497 /* SwiftLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLabApp.swift; sourceTree = "<group>"; };
-		23B5C9B12996FFFF0096C497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23B5C9B3299700000096C497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B5C9B6299700000096C497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23B5C9B8299700000096C497 /* SwiftLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftLab.entitlements; sourceTree = "<group>"; };
+		23B5C9BE2997028B0096C497 /* OnAppearOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearOnReceive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				23B5C9AF2996FFFF0096C497 /* SwiftLabApp.swift */,
-				23B5C9B12996FFFF0096C497 /* ContentView.swift */,
+				23B5C9BE2997028B0096C497 /* OnAppearOnReceive.swift */,
 				23B5C9B3299700000096C497 /* Assets.xcassets */,
 				23B5C9B8299700000096C497 /* SwiftLab.entitlements */,
 				23B5C9B5299700000096C497 /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B5C9B22996FFFF0096C497 /* ContentView.swift in Sources */,
+				23B5C9BF2997028B0096C497 /* OnAppearOnReceive.swift in Sources */,
 				23B5C9B02996FFFF0096C497 /* SwiftLabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +274,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Seungwoo Choe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -301,7 +301,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2023 Seungwoo Choe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
