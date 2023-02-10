@@ -16,21 +16,20 @@ import Combine
 
 
 struct OnAppearOnReceive: View {
-    let publisher = CurrentValueSubject<Bool, Never>(true)
+    private let publisher = CurrentValueSubject<Bool, Never>(true)
 
     var body: some View {
         TestView(publisher: publisher.eraseToAnyPublisher())
     }
 }
 
-struct TestView: View {
+private struct TestView: View {
     let publisher: AnyPublisher<Bool, Never>
 
     @State private var received = false
 
     var body: some View {
         Text("")
-            .font(.largeTitle)
             .onAppear {
                 print("Appeared")
             }
