@@ -11,6 +11,7 @@
 		23B5C9B4299700000096C497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5C9B3299700000096C497 /* Assets.xcassets */; };
 		23B5C9B7299700000096C497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5C9B6299700000096C497 /* Preview Assets.xcassets */; };
 		23B5C9BF2997028B0096C497 /* OnAppearOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5C9BE2997028B0096C497 /* OnAppearOnReceive.swift */; };
+		23B5C9D3299712480096C497 /* DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5C9D2299712480096C497 /* DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		23B5C9B6299700000096C497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23B5C9B8299700000096C497 /* SwiftLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftLab.entitlements; sourceTree = "<group>"; };
 		23B5C9BE2997028B0096C497 /* OnAppearOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearOnReceive.swift; sourceTree = "<group>"; };
+		23B5C9D2299712480096C497 /* DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				23B5C9AF2996FFFF0096C497 /* SwiftLabApp.swift */,
 				23B5C9BE2997028B0096C497 /* OnAppearOnReceive.swift */,
+				23B5C9D2299712480096C497 /* DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift */,
 				23B5C9B3299700000096C497 /* Assets.xcassets */,
 				23B5C9B8299700000096C497 /* SwiftLab.entitlements */,
 				23B5C9B5299700000096C497 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B5C9D3299712480096C497 /* DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift in Sources */,
 				23B5C9BF2997028B0096C497 /* OnAppearOnReceive.swift in Sources */,
 				23B5C9B02996FFFF0096C497 /* SwiftLabApp.swift in Sources */,
 			);

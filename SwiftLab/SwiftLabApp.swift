@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftLabApp: App {
     var body: some Scene {
         WindowGroup {
-            OnAppearOnReceive()
+            DoesOnReceiveCalledEveryTimeTheViewStateChanges()
         }
     }
 }
