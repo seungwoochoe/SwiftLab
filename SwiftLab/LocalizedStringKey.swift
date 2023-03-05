@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InlineNavigationTitle: ViewModifier {
-    let title: LocalizedStringKey
+    let title: Text
 
     func body(content: Content) -> some View {
         content
@@ -21,7 +21,11 @@ struct InlineNavigationTitle: ViewModifier {
 
 extension View {
     func inlineNavigationTitle(_ title: LocalizedStringKey = "") -> some View {
-        modifier(InlineNavigationTitle(title: title))
+        modifier(InlineNavigationTitle(title: Text(title)))
+    }
+
+    func inlineNavigationTitle(verbatim: any StringProtocol = "") -> some View {
+        modifier(InlineNavigationTitle(title: Text(verbatim)))
     }
 }
 
@@ -31,6 +35,7 @@ struct LocalizedStringKeyTest: View {
         NavigationStack {
             Text("LocalizedStringKeyTest")
                 .inlineNavigationTitle("Will this string show up when exporting localizations?")
+                .inlineNavigationTitle(verbatim: "What about this?")
         }
     }
 }
