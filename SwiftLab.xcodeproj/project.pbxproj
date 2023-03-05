@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23256BE429B55C40001ECAF2 /* LocalizedStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23256BE329B55C40001ECAF2 /* LocalizedStringKey.swift */; };
 		23B5C9B02996FFFF0096C497 /* SwiftLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5C9AF2996FFFF0096C497 /* SwiftLabApp.swift */; };
 		23B5C9B4299700000096C497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5C9B3299700000096C497 /* Assets.xcassets */; };
 		23B5C9B7299700000096C497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5C9B6299700000096C497 /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23256BE329B55C40001ECAF2 /* LocalizedStringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringKey.swift; sourceTree = "<group>"; };
 		23B5C9AC2996FFFF0096C497 /* SwiftLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B5C9AF2996FFFF0096C497 /* SwiftLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLabApp.swift; sourceTree = "<group>"; };
 		23B5C9B3299700000096C497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				23B5C9AF2996FFFF0096C497 /* SwiftLabApp.swift */,
 				23B5C9BE2997028B0096C497 /* OnAppearOnReceive.swift */,
 				23B5C9D2299712480096C497 /* DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift */,
+				23256BE329B55C40001ECAF2 /* LocalizedStringKey.swift */,
 				23B5C9B3299700000096C497 /* Assets.xcassets */,
 				23B5C9B8299700000096C497 /* SwiftLab.entitlements */,
 				23B5C9B5299700000096C497 /* Preview Content */,
@@ -144,6 +147,7 @@
 			files = (
 				23B5C9D3299712480096C497 /* DoesOnReceiveCalledEveryTimeTheViewStateChanges.swift in Sources */,
 				23B5C9BF2997028B0096C497 /* OnAppearOnReceive.swift in Sources */,
+				23256BE429B55C40001ECAF2 /* LocalizedStringKey.swift in Sources */,
 				23B5C9B02996FFFF0096C497 /* SwiftLabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
