@@ -20,11 +20,11 @@ struct InlineNavigationTitle: ViewModifier {
 }
 
 extension View {
-    func inlineNavigationTitle(_ title: LocalizedStringKey = "") -> some View {
+    func inlineNavigationTitle(_ title: LocalizedStringKey) -> some View {
         modifier(InlineNavigationTitle(title: Text(title)))
     }
 
-    func inlineNavigationTitle(verbatim: any StringProtocol = "") -> some View {
+    func inlineNavigationTitle(verbatim: any StringProtocol) -> some View {
         modifier(InlineNavigationTitle(title: Text(verbatim)))
     }
 }
@@ -34,8 +34,8 @@ struct LocalizedStringKeyTest: View {
     var body: some View {
         NavigationStack {
             Text("LocalizedStringKeyTest")
-                .inlineNavigationTitle("Will this string show up when exporting localizations?")
-                .inlineNavigationTitle(verbatim: "What about this?")
+                .inlineNavigationTitle("Should be localizable")
+//                .inlineNavigationTitle(verbatim: "No need to be localized")
         }
     }
 }
