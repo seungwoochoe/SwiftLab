@@ -31,11 +31,15 @@ extension View {
 
 
 struct LocalizedStringKeyTest: View {
+    let someBool = true
+
     var body: some View {
         NavigationStack {
             Text("LocalizedStringKeyTest")
                 .inlineNavigationTitle("Should be localizable")
 //                .inlineNavigationTitle(verbatim: "No need to be localized")
+
+            Text(someBool ? "Should be localizable 2" : "Should be localizable 3")
         }
     }
 }
